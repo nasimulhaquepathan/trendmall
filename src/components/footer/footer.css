@@ -22,11 +22,17 @@
   justify-content: center;
   column-gap: 1.25rem;
 }
+.footer_social a {
+  text-decoration: none;
+}
 .footer_list {
   display: flex;
   justify-content: center;
   column-gap: 1.5rem;
   margin-bottom: var(--mb-2);
+}
+.footer_list li a {
+  text-decoration: none;
 }
 .footer_social-link {
   background-color: var(--title-color);

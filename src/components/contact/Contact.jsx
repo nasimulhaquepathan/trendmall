@@ -34,7 +34,7 @@ const Contact = () => {
               <span className="contact_card-data">Nasim Ahmed</span>
 
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/follow.nasim.74/"
                 target="_blank"
                 className="contact_button"
               >

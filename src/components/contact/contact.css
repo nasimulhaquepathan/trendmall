@@ -45,6 +45,7 @@
   align-items: center;
   justify-content: center;
   column-gap: 0.5rem;
+  text-decoration: none;
 }
 .contact_button-icon {
   font-size: 1rem;

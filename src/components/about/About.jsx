@@ -14,7 +14,7 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            I am skilled fullstack developer with 3 years of experience, I have
+            I am skilled mernstack developer with 3 years of experience, I have
             a strong foundation in web development technologies and a keen eye
             for design. My ability to create intuitive and engaging user
             interfaces has made you an asset to any team you've worked with.

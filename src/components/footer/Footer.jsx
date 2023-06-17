@@ -13,7 +13,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#portfolio" className="footer_link">
+            <a href="#fortfolio" className="footer_link">
               Projects
             </a>
           </li>
@@ -51,7 +51,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer_copy">
-          &#169; Nasim Ahmed. All rights reserved
+          &#169; Nasimul Haque Pathan. All rights reserved
         </span>
       </div>
     </footer>
