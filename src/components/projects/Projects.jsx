@@ -48,10 +48,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Caarduck"
+              title="RentZoom"
               description="Our website provides comprehensive vehicle details, including descriptions, specifications, allowing you to make an informed decision. Wethe booking process. and we offer flexible rental periods, whether you need a car for a few hours, a day, a week, or longer."
               ghLink="https://github.com/nasimulhaquepathan/car-rental-website.git"
-              // demoLink="https://caarduck.netlify.app/home"              
+              demoLink="https://rentzoom.netlify.app/home"              
             />
           </Col>
 

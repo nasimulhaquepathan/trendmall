@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Mernstack Developer</h3>
       <p className="home_description">
-        "I am not here to impress you, but glad that you are impress.."
+        "With the MERN stack, you have the power to build dynamic and interactive applications that captivate users and push the boundaries of web development. I am not here to impress you, but glad that you are impress.."
       </p>
       <a href="#contact" className="button button-flex">
         Hire Me
