@@ -4,10 +4,13 @@ import ProjectCard from "../ProjectCards/ProjectCard";
 import Particle from "./Particle";
 import leaf from "../../assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/blog.png"
+import gym from '../../assets/Projects/project-1.jpg'
+import ecommerce from '../../assets/Projects/project3.jpg'
+import food from '../../assets/Projects/projects 5.jpg'
+import cars from '../../assets/Projects/cars (2).jpg'
+import tours from '../../assets/Projects/tours.jpg'
+import foods from '../../assets/Projects/foods-min.jpg'
 
 function Projects() {
   return (
@@ -24,7 +27,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tours}
               isBlog={false}
               title="Travel-World"
               description="Embark on your next travel journey with confidence and convenience. Visit Travel World today and unlock a world of extraordinary travel experiences. Let us handle the details while you focus on creating cherished memories that will last a lifetime."
@@ -35,7 +38,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={gym}
               isBlog={false}
               title="Fast-Fitnesss"
               description="Stay connected and informed through our website's features. Get updates on class schedules, upcoming events, and special promotions. We offer a convenient online booking system, allowing you to You can also track your progress and set fitness goals through our integrated fitness tracking tools.."
@@ -46,7 +49,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={cars}
               isBlog={false}
               title="RentZoom"
               description="Our website provides comprehensive vehicle details, including descriptions, specifications, allowing you to make an informed decision. Wethe booking process. and we offer flexible rental periods, whether you need a car for a few hours, a day, a week, or longer."
@@ -57,10 +60,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={foods}
               isBlog={false}
               title="Teasty teat"
-              description="Once your order is confirmed, you can track its progress in real-time through our app's tracking feature. From kitchen preparation to delivery, you'll stay informed about every step of the process. Our delivery partners are reliable and committed to providing timely and professional service, ensuring that your food arrives fresh and piping hot."
+              description="Once your order is confirmed, you can track its progress in real-time through our app's tracking feature. From kitchen preparation to delivery, you'll stay informed about every step of the process. Our delivery partners are reliable and committed to providing timely and professional service."
               ghLink="https://github.com/nasimulhaquepathan/Dinnermite.git"
               demoLink="https://flavorita.netlify.app/home"
             />
@@ -68,14 +71,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention lorem
-              the detection of suicide-related posts and user's suicide
+              title="TrendMall"
+              description="Our user-friendly website ensures effortless navigation, making it easy for you to explore and find exactly what you're looking for. With detailed product descriptions, multiple images, and customer reviews, you can make informed purchasing decisions and shop with confidence.
               ."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://github.com/nasimulhaquepathan/trendmall.git"
+              demoLink="trendmall.netlify.app/" 
             />
           </Col>
 
